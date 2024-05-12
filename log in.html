@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户登录</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #00bbbb;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #777;
+        }
+        
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        ul li {
+            margin-bottom: 10px;
+        }
+        
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="password"],
+        button {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+            font-size: 16px;
+        }
+        
+        button {
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>用户登录</h1>
+        <nav>
+            <a href="index.html">返回首页</a>
+        </nav>
+    </header>
+
+    <section>
+        <form>
+            <label for="username">用户名:</label>
+            <input type="text" id="username" name="username">
+
+            <label for="password">密码:</label>
+            <input type="password" id="password" name="password">
+
+            <button type="submit">登录</button>
+        </form>
+    </section>
+</body>
+
+</html>
