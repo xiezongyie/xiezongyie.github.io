@@ -86,4 +86,65 @@
         因为.dropdown只用过一次，觉得可以删除<div class="dropdown"></div>来减少代码量，尝试  将.dropdown:hover .dropdown-content {display: block;} 修改为.dropbtn:hover+.dropdown-content {display: block;} 并删除<div class="dropdown"></div>后，鼠标悬停在“下拉菜单”上，会显示下拉菜单， 但无法选中菜单中的“链接 x”， ### 为什么？该如何完善？ ###    
      */
 </style>
+<link rel="stylesheet" href="https://www.w3schools.cn/cdnjs/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">模组教程</h2>
+
+<div class="card">
+  <img src="https://xiezongyie.github.io/images/industrial_chemistry.png" alt="industrial_chemistry" style="width: 60%">
+  <h2>industrial_chemistry</h2>
+  <p class="title">关于industrial_chemistry的教程</p>
+  <p>中文教程</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-envelope"></i></a> 
+    <a href="#"><i class="fa fa-file-pdf-o"></i></a>  
+    <a href="#"><i class="fa fa-commenting"></i></a>  
+    <a href="#"><i class="fa  fa-download"></i></a> 
+  </div>
+  <p></p>
+  <a href="https://xiezongyie.github.io/forum.html"><button>进入教程</button></a>
+</div>
+
+
+
+</body>
 </html>
